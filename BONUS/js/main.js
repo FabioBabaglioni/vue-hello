@@ -8,7 +8,7 @@ const { createApp } = Vue
       return {
         // scrivo il messaggio che andrà stampato nelll'h1
         messaggio: "Ciao a tutti!!!",
-        image: require (`/assets/img/lago-iseo.jpg`)
+        image:`img/lago-iseo.jpg`,
       }
     }
   }).mount('#app')

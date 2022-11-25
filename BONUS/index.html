@@ -10,12 +10,13 @@
 
     <div id="app">
         
+        <input type="text" v-model="messaggio">
 
         <!-- inserisco il messaggio scritto in js -->
         <h1>{{ messaggio }}</h1>
 
-        <!-- inserisco -->
-        <img src= "{{ image }}"  alt="">
+        <!-- inserisco l'immagine con il tag src richiamato con v-bind -->
+        <img v-bind:src = "image">
 
     </div>
 
